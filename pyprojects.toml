@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Buraktalhaa"
+version = "0.0.1"
+authors = [
+    { name = "Burak Talha  Memis", email = "talha45878@gmail.com" },
+]
+description = "A simple package for calculating statistics."
+readme = "README.md"
+keywords = ["burak", "btm"]
+requires-python = ">=3.6.0"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Buraktalhaa/btm.git"
